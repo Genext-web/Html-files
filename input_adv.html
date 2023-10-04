@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Information Form</title>
+</head>
+<body>
+	<form action="#" method="post">
+    Name: <input type="text" name="fname" required value="Dharmendra" readonly> <br><br>   <!-- Readonly -->
+
+    Name: <input type="text" name="lname" required="required" value="Dharmendra" disabled> <br><br>  <!-- Disabled -->
+
+    Name: <input type="text" name="aname" required="required" value="Dharmendra" size="50"> <br><br>  <!-- Size -->
+
+    Pin:- <input type="text" name="pin" size="4" maxlength="4">  <br><br>
+
+    Number:- <input type="number" min="1" max="500" value="1" step="10">  <br><br>
+
+    file:-<input type="file" name="" multiple>  <br><br>
+
+    Date:-<input type="date" min="2000-01-02" max="2024-01-02"><br><br>
+
+    Pattern:- <input type="text" name="" pattern="[A-Za-z]{5}" title="Five Laters Compulsary">
+    <br><br>
+
+     Pattern:- <input type="text" name="" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" title="Eight Laters Compulsary" placeholder="123-45-789">
+    <br><br>
+
+     Pattern:- <input type="text" name="" pattern="[A-Z]{3}-[0-9]{2}-[a-z]{3}" title="Eight Laters Compulsary" placeholder="ASD-45-xyz" autofocus="">
+    <br><br>
+
+    Step:-<input type="number" step="10" value="11">  <br> <br>
+
+    Email: <input type="Email" name=""><br>
+
+    password: <input type="password" name=""> <br>
+    
+    Date Of Birth: <input type="date" name=""> <br>
+    Month Of Birth: <input type="month" name=""> <br>
+    year Of Birth: <input type="year" name=""> <br>
+    Contact No: <input type="number" name=""> <br>
+    Gender: 
+        <br>
+           <input type="radio" name="Gender"> Male <br>
+           <input type="radio" name="Gender"> FeMale <br>
+           <input type="radio" name="Gender"> Other <br>
+    Qualification:<br>
+           <input type="checkbox" name="qul[]">10th<br>
+           <input type="checkbox" name="qul[]">12th<br>
+           <input type="checkbox" name="qul[]">Graduate<br>
+           <input type="checkbox" name="qul[]">Post Graduate<br>
+
+<input type="reset" name="reset" value="Reset">           
+<input type="submit" name="Submit" value="Submit">
+    </form>
+</body>
+</html>
